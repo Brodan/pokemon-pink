@@ -24,9 +24,8 @@ Music_OaksLab::
 	channel 3, Music_OaksLab_Ch3
 
 Music_JigglypuffSong::
-	channel_count 2
+	channel_count 1
 	channel 1, Music_JigglypuffSong_Ch1
-	channel 2, Music_JigglypuffSong_Ch2
 
 Music_BikeRiding::
 	channel_count 4

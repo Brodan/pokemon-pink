@@ -34,9 +34,9 @@ SetDefaultNames:
 OakSpeech:
 	ld a, SFX_STOP_ALL_MUSIC
 	call PlaySound
-	ld a, BANK(Music_Routes2)
+	ld a, BANK(Music_Gym)
 	ld c, a
-	ld a, MUSIC_ROUTES2
+	ld a, MUSIC_GYM
 	call PlayMusic
 	call ClearScreen
 	call LoadTextBoxTilePatterns
@@ -64,7 +64,7 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld a, NIDORINO
+	ld a, DITTO
 	ld [wd0b5], a
 	ld [wcf91], a
 	call GetMonHeader
