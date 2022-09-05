@@ -804,7 +804,7 @@ _PokemonBooksText::
 
 _DiglettSculptureText::
 	text "It's a sculpture"
-	line "of DIGLETT."
+	line "of DITTO."
 	done
 
 _ElevatorText::

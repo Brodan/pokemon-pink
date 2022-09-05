@@ -80,8 +80,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_QUADRUPED ; Slowpoke
 	nybble ICON_MON       ; Slowbro
-	nybble ICON_BALL      ; Magnemite
-	nybble ICON_BALL      ; Magneton
+	nybble ICON_MON      ; Magnemite
+	nybble ICON_MON      ; Magneton
 	nybble ICON_BIRD      ; Farfetch'd
 	nybble ICON_BIRD      ; Doduo
 	nybble ICON_BIRD      ; Dodrio
@@ -99,8 +99,8 @@ MonPartyData:
 	nybble ICON_MON       ; Hypno
 	nybble ICON_WATER     ; Krabby
 	nybble ICON_WATER     ; Kingler
-	nybble ICON_BALL      ; Voltorb
-	nybble ICON_BALL      ; Electrode
+	nybble ICON_MON      ; Voltorb
+	nybble ICON_MON      ; Electrode
 	nybble ICON_GRASS     ; Exeggcute
 	nybble ICON_GRASS     ; Exeggutor
 	nybble ICON_MON       ; Cubone
