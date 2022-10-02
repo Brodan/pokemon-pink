@@ -22,7 +22,7 @@ _FuchsiaCityText3::
 	done
 
 _FuchsiaCityText4::
-	text "That item ball in"
+	text "That blob in"
 	line "there is really a"
 	cont "#MON."
 	done
