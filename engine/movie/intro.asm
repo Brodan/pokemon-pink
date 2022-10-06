@@ -445,11 +445,11 @@ FightIntroBackMonEnd:
 
 IF DEF(_RED)
 FightIntroFrontMon:
-	INCBIN "gfx/intro/red_nidorino_1.2bpp"
+	INCBIN "gfx/intro/red_ditto_1.2bpp"
 FightIntroFrontMon2:
-	INCBIN "gfx/intro/red_nidorino_2.2bpp"
+	INCBIN "gfx/intro/red_ditto_2.2bpp"
 FightIntroFrontMon3:
-	INCBIN "gfx/intro/red_nidorino_3.2bpp"
+	INCBIN "gfx/intro/red_ditto_3.2bpp"
 ENDC
 
 IF DEF(_BLUE)
