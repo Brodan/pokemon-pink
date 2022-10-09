@@ -70,4 +70,4 @@ FairySprite::            INCBIN "gfx/sprites/ditto.2bpp"
 AgathaSprite::           INCBIN "gfx/sprites/agatha.2bpp"
 BrunoSprite::            INCBIN "gfx/sprites/bruno.2bpp"
 LoreleiSprite::          INCBIN "gfx/sprites/lorelei.2bpp"
-SeelSprite::             INCBIN "gfx/sprites/ditto.2bpp" ; TODO: MAKE DITTO SWIM
+SeelSprite::             INCBIN "gfx/sprites/ditto_swim.2bpp"
