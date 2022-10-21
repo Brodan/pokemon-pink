@@ -40,10 +40,10 @@ DisplayTitleScreen:
 	ld bc, 5 tiles
 	ld a, BANK(NintendoCopyrightLogoGraphics)
 	call FarCopyData2
-	ld hl, GamefreakLogoGraphics
+	ld hl, BrodanBizGraphics
 	ld de, vTitleLogo2 tile (16 + 5)
 	ld bc, 9 tiles
-	ld a, BANK(GamefreakLogoGraphics)
+	ld a, BANK(BrodanBizGraphics)
 	call FarCopyData2
 	ld hl, PokemonLogoGraphics
 	ld de, vTitleLogo
@@ -98,9 +98,9 @@ DisplayTitleScreen:
 	ld [hl], a
 
 ; place tiles for title screen copyright
-	hlcoord 2, 17
+	hlcoord 6, 17
 	ld de, .tileScreenCopyrightTiles
-	ld b, $10
+	ld b, $9
 .tileScreenCopyrightTilesLoop
 	ld a, [de]
 	ld [hli], a
@@ -111,7 +111,7 @@ DisplayTitleScreen:
 	jr .next
 
 .tileScreenCopyrightTiles
-	db $41,$42,$43,$42,$44,$42,$45,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E ; ©'95.'96.'98 GAME FREAK inc.
+	db 	$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E ; '22 brodan.biz	
 
 .next
 	call SaveScreenTilesToBuffer2
@@ -399,7 +399,7 @@ PrintGameVersionOnTitleScreen:
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText:
 IF DEF(_RED)
-	db $60,$61,$7F,$65,$66,$67,$68,$69,"@" ; "Red Version"
+	db $61,$62,$63,$64,$65,$66,$67,$68,"@" ; "Pink Version"
 ENDC
 IF DEF(_BLUE)
 	db $61,$62,$63,$64,$65,$66,$67,$68,"@" ; "Blue Version"

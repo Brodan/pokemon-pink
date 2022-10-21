@@ -29,3 +29,6 @@ WorldMapTileGraphicsEnd:
 
 PlayerCharacterTitleGraphics: INCBIN "gfx/title/player.2bpp"
 PlayerCharacterTitleGraphicsEnd:
+
+BrodanBizGraphics: INCBIN "gfx/title/brodan_biz.2bpp"
+BrodanBizGraphicsEnd:
