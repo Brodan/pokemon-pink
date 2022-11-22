@@ -263,7 +263,7 @@ PidgeotPicBack::       INCBIN "gfx/pokemon/back/dittob.pic"
 StarmiePicFront::      INCBIN "gfx/pokemon/front/ditto.pic"
 StarmiePicBack::       INCBIN "gfx/pokemon/back/dittob.pic"
 
-RedPicBack::           INCBIN "gfx/player/redb.pic"
+RedPicBack::           INCBIN "gfx/player/pinkb.pic"
 OldManPicBack::        INCBIN "gfx/battle/oldmanb.pic"
 
 
